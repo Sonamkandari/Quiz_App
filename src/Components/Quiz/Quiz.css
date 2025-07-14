@@ -1,0 +1,72 @@
+
+/* add css properties for this container class */
+.container{
+ width: 640px;
+ margin:auto;
+ margin-top:150px;
+ background:white;
+ color: #262626;;
+ display:flex;
+ flex-direction:column;
+ gap:20px;
+ border-radius:15px;
+ padding:40px 50px;
+
+}
+
+/* adding the css properties for hr tag */
+
+.container hr{
+   height:2px;
+   border: none;
+   background:#707070; 
+}
+
+.container h2{
+    font: size 27px;
+    font-weight:500px;
+
+}
+
+/* adding css properties for ul tags and li tags */
+.container ul li{
+    display:flex;
+    align-items:center;
+    height:95px;
+    padding: 15px;
+    border:1px solid #686868;
+    border-radius:8px;
+    margin-bottom:20px;
+    cursor: pointer;
+
+}
+
+.container button{
+    margin:auto;
+    width:250px;
+    height:65px;
+    background:#553f9a;
+    color: #fff;
+    font-size: 25px;
+    font-weight:500;
+    border-radius:15px;
+}
+.container .index{
+    margin: auto;
+    font-size:18px;
+    font-weight: 400px;
+
+
+}
+
+/* Adding css properties for  */
+.container .Correct{
+    background: #dffff2;
+    border-color:#00d397;
+}
+
+.container .Wrong{
+    background:#FFEBEB;
+    background-color:#edaeae;
+
+}
