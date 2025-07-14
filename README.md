@@ -1,7 +1,4 @@
-✅ README.md for Quiz App
-markdown
-Copy
-Edit
+
 # 🎯 Quiz App
 
 This is a responsive, interactive Quiz App built using **React** and **Vite**, and deployed via **GitHub Pages**. It features multiple-choice questions, visual feedback for correct and incorrect answers, and smooth user interaction.
@@ -33,21 +30,7 @@ This is a responsive, interactive Quiz App built using **React** and **Vite**, a
 
 ## 📁 Folder Structure
 
-Quiz_App/
-├── public/
-├── src/
-│ ├── components/
-│ ├── data/
-│ ├── App.jsx
-│ └── main.jsx
-├── index.html
-├── vite.config.js
-├── package.json
-└── README.md
-
-yaml
-Copy
-Edit
+<img width="177" height="260" alt="image" src="https://github.com/user-attachments/assets/4018ca7a-c86d-46a9-bc09-af9923f6c80a" />
 
 ---
 
@@ -59,47 +42,31 @@ To run this project locally:
    ```bash
    git clone https://github.com/Sonamkandari/Quiz_App.git
    cd Quiz_App
-Install dependencies
-
-bash
-Copy
-Edit
+   
+2. **Install dependencies**
 npm install
-Start the development server
 
-bash
-Copy
-Edit
+3. **Start the development server**
 npm run dev
-Build for production
 
-bash
-Copy
-Edit
+4. **Build for production**
 npm run build
-Deploy to GitHub Pages
 
-bash
-Copy
-Edit
+5. **Deploy to GitHub Pages**
 npm run deploy
-🌐 Deployment Notes
-The app uses gh-pages to deploy the /dist folder.
 
+
+**🌐 Deployment Notes**
+The app uses gh-pages to deploy the /dist folder.
 Make sure the vite.config.js file includes the correct base:
 
-js
-Copy
-Edit
-base: "/Quiz_App/"
-📌 To-Do / Improvements (Optional)
- Add timer per question
-
- Score summary at the end
-
- Question categories or difficulty levels
-
- Save high scores in localStorage
+ base: "/Quiz_App/"
+ 
+**📌 To-Do / Improvements (Optional)**
+1.  Add timer per question
+2. Score summary at the end
+3. Question categories or difficulty levels
+4. Save high scores in localStorage
 
 🙋‍♀️ Author
 Made with ❤️ by Sonam Kandari
