@@ -190,7 +190,7 @@ export const data = [
     option2: "DELETE FROM table",
     option3: "TRUNCATE TABLE",
     option4: "Both B and C are correct",
-    ans: 4,
+    ans: 3,
   },
   {
     question: "What is the result of using LIMIT 5 OFFSET 10 in a query?",
